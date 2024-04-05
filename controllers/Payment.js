@@ -28,7 +28,7 @@ export const subscriptionPayment = async (req, res) => {
     success_url: "http://localhost:3000/AskQuestion",
     cancel_url: "http://localhost:3000",
   });
-  console.log(session);
+  // console.log(session);
   return res.json({ id: session.id });
 };
 
